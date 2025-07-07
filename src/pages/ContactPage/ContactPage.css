@@ -1,0 +1,149 @@
+.contact-container {
+  width: 100%;
+}
+
+.contact-banner img {
+  width: 100%;
+  height: 30vh;
+  display: block;
+}
+
+.contact-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.contact-content h1 {
+  text-align: center;
+  color: #273859;
+  margin-bottom: 2rem;
+  font-family: 'DM Sans';
+  line-height: 40px;
+  letter-spacing: 0%;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.contact-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.contact-form {
+  flex: 1 1 60%;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.contact-form h3 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  background-color: #F8F8F8;
+}
+.response-message p{
+  margin-top: 5px;
+}
+.contact-form button {
+  border: 1px solid #B68A0E;
+  padding: 0.75rem 2rem;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  width: 45vw;
+  border-radius: 12px;
+}
+.contact-form button:hover{
+  background-color: #B68A0E;
+  color: white;
+}
+.contact-form .captcha-note {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #4B4B4B;
+}
+.contact-form .captcha-note a {
+  color: #B68A0E;
+  margin: 0 0.2rem;
+}
+
+.contact-info {
+  flex: 1 1 30%;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.contact-info h4 {
+  margin-bottom: 1rem;
+  color: #2F2F2F;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+
+}
+
+.contact-info p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #404040;
+}
+.contact-info a {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #1a2a47;
+  text-decoration: none;
+  padding-top: 0.5rem;
+  color: #B68A0E;
+}
+
+.contact-info .hours {
+  margin-top: 1rem;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  font-family: 'DM Sans';
+}
+.hours-line {
+  display: inline-flex;  
+  align-items: center;   
+  gap: 4px;  
+           
+}
+.hours-line span{
+    color: #B68A0E;
+}
+.down-arrow {
+  font-size: 14px;  
+  justify-content: center;  
+  align-items: center; 
+  color: #B68A0E; 
+  width: 20px;
+  height: 20px;
+   
+}
+
+.contact-map-banner{
+   width: 100%;
+}
+@media (max-width: 768px) {
+  .contact-main {
+    flex-direction: column;
+  }
+}

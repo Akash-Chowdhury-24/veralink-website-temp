@@ -1,0 +1,43 @@
+.category-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1.5rem 0;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #404040;
+  cursor: pointer;
+  position: relative;
+  font-weight: 500;
+  padding-bottom: 4px;
+}
+
+.tab-button.active {
+  color: #B68A0E;
+  font-weight: 900;
+}
+
+.tab-button.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #B68A0E;
+  border-radius: 1px;
+}
+
+/* Responsive for small screens */
+@media (max-width: 600px) {
+  .category-tabs {
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+}

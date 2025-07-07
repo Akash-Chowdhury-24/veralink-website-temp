@@ -1,0 +1,187 @@
+.about-banner {
+  position: relative;
+  background: url('/meet-banner-img.png') center/cover no-repeat;
+  height: 30vh; /* adjust to your design */
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.about-banner .quote-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* perfect center */
+  text-align: center;
+  color: #FFFFFF; 
+  padding: 0 1rem; /* padding for small screens */
+}
+.about-banner .quote-text h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.about-banner .quote-text span {
+  display: block;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.about-heading {
+  text-align: center;
+  margin-bottom: 0.1rem;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+  color: #273859;
+  margin-top: 10vh;
+}
+.about-heading {
+  text-align: center;
+  margin-bottom: 0.1rem;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+  color: #273859;
+  margin-top: 10vh;
+}
+.about-vts-container1{
+    display: flex;
+    align-items: center;
+    padding: 2.5rem;
+}
+.about-vts-text h1{
+    color: #2F2F2F;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+.about-vts-text p{
+    text-align: center;
+    margin-left: 35px;
+    color: #404040;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    font-size: 14px;
+}
+.about-vts-container2{
+    display: flex;
+    align-items: center;
+    padding: 2.5rem;
+}
+.about-vts-text1 h1{
+    color: #2F2F2F;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+.about-vts-text1 p{
+    text-align: center;
+    margin-right: 35px;
+    color: #404040;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    font-size: 14px;
+}
+
+/* WhatWeDo.css */
+
+.what-we-do {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.what-we-do h2 {
+ text-align: center;
+  margin-bottom: 0.1rem;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+  color: #273859;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.service-block {
+  margin-bottom: 10px;
+}
+
+.service-block h4 {
+  margin-bottom: 8px;
+  color: #2F2F2F;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.service-block p {
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  
+}
+
+.why-choose {
+  margin-top: 10vh;
+  text-align: center;
+
+/* removes center alignment if needed */
+}
+
+.why-choose h2 {
+  margin-bottom: 15px;
+}
+
+.why-choose p {
+  margin-bottom: 15px;
+  line-height: 1.7;
+margin-bottom: 15px;
+  border-left: 2.5px solid #B68A0E;
+  padding-left: 12px;
+  text-align: center; 
+}
+.why-choose .why-choose-para h3{
+    color: #2F2F2F;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    margin-bottom: 2vh;
+}
+/* .learn-more-btn {
+  padding: 12px 30px;
+  background-color: #ffff;
+  color: black;
+  border: red ;
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+} */
+.learn-more-btn {
+  padding: 12px 30px;
+  background-color: transparent;   /* no background */
+  color: #2F2F2F;
+  border: 2px solid #B68A0E;        /* yellow border */
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.slider h1{
+        color: #2F2F2F;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    margin-bottom: 2vh;
+    text-align: center;
+}

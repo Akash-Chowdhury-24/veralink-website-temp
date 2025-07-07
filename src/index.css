@@ -1,0 +1,13 @@
+@import "tailwindcss";
+body{
+  /* font-family: 'ubuntu'; */
+  overflow-x: hidden;
+  margin: 0%;
+  padding: 0%
+}
+button,input,select{
+  font-family: 'DM Sans';
+}
+/* h1,h2,h3,h4,h5,h6,p,a,span,label{
+  font-family: 'ubuntu';
+} */

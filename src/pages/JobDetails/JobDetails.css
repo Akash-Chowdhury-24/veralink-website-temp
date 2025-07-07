@@ -1,0 +1,129 @@
+.job-details-container {
+  /* display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  gap: 2rem; */
+  width: 100%;
+}
+.job-main-container{
+    display: flex;
+  flex-wrap: wrap;
+  max-width: 92%;
+  /* margin: 0 auto; */
+  padding: 1rem 1rem;
+  gap: 5rem;
+  margin-left: 3rem;
+  margin-top: 5vh;
+}
+.job-heading{
+    text-align: center;
+    margin-top: 8vh;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #273859;
+
+}
+.job-description {
+  flex: 2;
+  min-width: 300px;
+  color: #4B4B4B;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+}
+
+.job-description h2 {
+  color: #2F2F2F;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 100%;
+  padding-bottom: 1rem;
+  
+  /* padding-bottom: 50px; */
+}
+
+.apply-now {
+  flex: 1;
+  min-width: 300px;
+}
+.apply-now h4{
+    color: #2F2F2F;
+    font: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    padding-bottom: 1rem;
+}
+.apply-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.apply-form input[type='text'],
+.apply-form input[type='email'],
+.apply-form input[type='tel'] {
+  padding: 0.8rem;
+  /* border: 1px solid #F8F8F8; */
+  background-color: #F8F8F8;
+  border-radius: 12px;
+}
+
+.attach-resume {
+  color: #B68A0E;
+  cursor: pointer;
+  font-weight: 440;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  gap: 0.2rem;
+  padding: 0.5rem;
+  
+}
+
+.attach-resume input {
+  display: none;
+}
+
+.submit-btn {
+  padding: 0.75rem;
+  background: transparent;
+  border: 1px solid #B68A0E;
+  color: #2F2F2F;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.submit-btn:hover {
+  background: #B68A0E;
+  color: #fff;
+}
+
+.privacy-note {
+  font-size: 0.8rem;
+  color: #4B4B4B;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.privacy-note a {
+  color: #B68A0E;
+  /* text-decoration: underline; */
+}
+.uploading-text {
+  color: orange;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+.resume-name {
+  color: green;
+  font-weight: 500;
+  margin-left: 8px;
+  word-break: break-word;
+}

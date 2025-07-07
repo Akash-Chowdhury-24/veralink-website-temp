@@ -1,0 +1,76 @@
+/* LogoCarousel.css */
+.auto-slider-logo-carousel {
+  width: 100%;
+  background-color: white;
+  padding: 48px 0;
+  overflow: hidden;
+}
+
+.auto-slider-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.auto-slider-title {
+  font-size: 2.25rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.auto-slider-title-our {
+  color: #9ca3af;
+}
+
+.auto-slider-title-clients {
+  color: #2563eb;
+}
+
+.auto-slider-carousel-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.auto-slider-logo-slider {
+  display: flex;
+  align-items: center;
+  transition: transform 0.1s linear;
+}
+.auto-slider-logo-slider 
+.auto-slider-logo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px; /* 9rem */
+  margin: 0 19px;
+}
+
+.auto-slider-logo-image {
+  width: 100%;
+   max-height: 100000px;      
+  /* max-width: 100%; */
+  /* max-height: 64px;  */
+  object-fit: contain;
+}
+
+/* Optional: Add hover effect to logos */
+.auto-slider-logo-image:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Optional: Add responsive adjustments */
+@media (max-width: 768px) {
+  .auto-slider-title {
+    font-size: 1.875rem;
+  }
+  
+  .auto-slider-logo-item {
+    width: 120px;
+  }
+  
+  .auto-slider-logo-image {
+    max-height: 48px;
+  }
+}

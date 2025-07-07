@@ -1,0 +1,31 @@
+
+.terms-banner {
+  position: relative;
+  background: url('/tsp-banner.png') center/cover no-repeat;
+  height: 30vh; /* adjust to your design */
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.terms-banner .quote-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* perfect center */
+  text-align: center;
+  color: #FFFFFF; 
+  padding: 0 1rem; /* padding for small screens */
+}
+.terms-banner .quote-text h1{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 60px;
+}
+.terms-banner .quote-text span {
+  display: block;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+.terms-container img{  
+  padding: 10%;
+}

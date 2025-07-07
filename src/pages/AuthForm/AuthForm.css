@@ -1,0 +1,130 @@
+.auth-container {
+  width: 100%;
+
+}
+.auth-container-main {
+width: 100%;
+  max-width: 600px;
+  margin: 60px auto;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  border: 1px solid #B0B0B0;
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+.tab-header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 25px;
+}
+
+.tab-header button {
+  flex: 1;
+  padding: 12px 0;
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #999;
+  cursor: pointer;
+  position: relative;
+}
+
+.tab-header .active {
+  color: #000;
+  font-weight: 600;
+}
+
+.tab-header .active::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 30%;
+  width: 40%;
+  height: 2px;
+  background-color: #B68A0E;
+}
+
+.auth-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.auth-form label span {
+  color: red;
+  margin-left: 4px;
+}
+
+.auth-form input[type="text"],
+.auth-form input[type="email"],
+.auth-form input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #F8F8F8;
+  margin-bottom: 18px;
+  box-sizing: border-box;
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-field span {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #888;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.remember-me input[type="checkbox"] {
+  margin-right: 8px;
+  accent-color: #B68A0E;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #B68A0E;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #B68A0E;
+  color: #fff;
+}
+
+.privacy-note {
+  font-size: 12px;
+  color: #404040;
+  margin-bottom: 20px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.privacy-note a {
+  color: #B68A0E;
+  text-decoration: none;
+}

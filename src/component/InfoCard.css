@@ -1,0 +1,69 @@
+.info-card {
+  display: flex;
+  align-items: center;
+  /* gap: 1rem; */
+  border: 1px solid #D9D9D9;
+  border-radius: 60px;
+  /* padding: 25px; */
+  padding-bottom: 40px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03); */
+  flex-wrap: wrap;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 10vh;
+}
+
+.info-left {
+  flex: 1;
+  min-width: 500px;
+}
+
+.illustration {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.info-right {
+  flex: 2;
+  min-width: 260px;
+}
+
+.logo {
+  max-width: 500px;
+  margin-bottom: 5px;
+  /* height: 500px; */
+}
+
+.info-right h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.info-right p {
+  font-size: 0.9rem;
+  margin: 5px 0;
+  color: #404040;
+  font-size: 14px;
+  font-weight: 400
+}
+
+.learn-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid #B68A0E;
+  border-radius: 12px;
+  color: #2F2F2F;
+  cursor: pointer;
+  width: 32%;
+  font-weight: 600;
+  line-height: 24px;
+}
+.learn-btn:hover{
+  background-color: #B68A0E;
+  color: white;
+}
