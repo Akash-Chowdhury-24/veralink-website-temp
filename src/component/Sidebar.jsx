@@ -303,7 +303,7 @@ const Sidebar = () => {
             </li>
             
                <li onClick={() => setActiveMenu("about")} className="clickable">
-              <Link to="/about" className={location.pathname === "/about" ? "active" : ""}>
+              <Link to="#" className={location.pathname === "/about" ? "active" : ""}>
                 About Us <FiChevronRight />
               </Link>
               </li>
