@@ -1,5 +1,3 @@
-import React from "react";
-import Sidebar from "./component/sidebar";
 // In your index.js or App.js
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
