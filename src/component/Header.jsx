@@ -74,7 +74,7 @@
 
 
 import React, { useContext } from "react";
-import "./Header.css";
+import "./header.css";
 import { GlobalContext } from "../context/GlobalContext";
 
 const Header = () => {
